@@ -1,3 +1,13 @@
-<h1>Homepage</h1>
+<div class="home-container">
+  <div class="homepage">
+    <h1>Wanna see some cocktails ?</h1>
 
-<%= link_to 'Cocktails', cocktails_path %>
+    <div class="image-btn">
+    <%= link_to cl_image_tag("wgc0e6vegllzasmolden",
+          width: 150, height: 150, crop: :thumb, gravity: :face), cocktails_path %>
+    </div>
+
+  </div>
+
+</div>
+

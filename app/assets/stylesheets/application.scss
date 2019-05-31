@@ -11,3 +11,88 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.home-container {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.homepage {
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .image-btn {
+
+    img {
+      // position: absolute;
+      border-radius: 50%;
+      text-decoration: none;
+      border: 2px solid black;
+    }
+
+    img:hover {
+      border: 2px solid red;
+      background-image: none;
+      background-color: red;
+    }
+
+  }
+}
+.banner {
+  background-attachment: fixed;
+  background-position: top;
+  // position: absolute;
+  // background-position: top;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.cocktail-list-text {
+  // text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.list-index {
+  margin: 20px 0;
+}
+
+.container {
+  // text-align: center;
+}
